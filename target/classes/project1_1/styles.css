@@ -1,0 +1,52 @@
+/* JavaFX CSS */
+.button {
+    -fx-background-color: #c2fbd7;
+    -fx-border-radius: 100px;
+    -fx-background-radius: 100px;
+    -fx-effect: dropshadow(gaussian, rgba(44, 187, 99, 0.2), 18, 0.5, 0, 4),
+                dropshadow(gaussian, rgba(44, 187, 99, 0.15), 2, 0.5, 0, 1),
+                dropshadow(gaussian, rgba(44, 187, 99, 0.15), 4, 0.5, 0, 2),
+                dropshadow(gaussian, rgba(44, 187, 99, 0.15), 8, 0.5, 0, 4),
+                dropshadow(gaussian, rgba(44, 187, 99, 0.15), 16, 0.5, 0, 8),
+                dropshadow(gaussian, rgba(44, 187, 99, 0.15), 32, 0.5, 0, 16);
+    -fx-text-fill: green;
+    -fx-cursor: hand;
+    -fx-font-family: "Roboto", "CerebriSans-Regular", "-apple-system", "system-ui", "sans-serif";
+    -fx-padding: 7px 20px;
+    -fx-text-alignment: center;
+    -fx-font-size: 16px;
+    -fx-border-width: 0;
+    -fx-focus-traversable: false;
+    -fx-background-insets: 0;
+    -fx-text-overrun: clip;
+    -fx-alignment: center;
+    -fx-wrap-text: false;
+}
+
+.button:hover {
+    -fx-effect: dropshadow(gaussian, rgba(44, 187, 99, 0.35), 18, 0.5, 0, 4),
+                dropshadow(gaussian, rgba(44, 187, 99, 0.25), 2, 0.5, 0, 1),
+                dropshadow(gaussian, rgba(44, 187, 99, 0.25), 4, 0.5, 0, 2),
+                dropshadow(gaussian, rgba(44, 187, 99, 0.25), 8, 0.5, 0, 4),
+                dropshadow(gaussian, rgba(44, 187, 99, 0.25), 16, 0.5, 0, 8),
+                dropshadow(gaussian, rgba(44, 187, 99, 0.25), 32, 0.5, 0, 16);
+    -fx-scale-x: 1.05;
+    -fx-scale-y: 1.05;
+    -fx-rotate: -1;
+}
+
+.text-field {
+    -fx-pref-width: 80px;
+    -fx-pref-height: 20px;
+}
+
+.label {
+    -fx-font-size: 20px;
+}
+
+#big-buttons {
+    -fx-border-radius: 180px;
+    -fx-background-radius: 180px;
+    -fx-font-size: 32px;
+    -fx-padding: 14px 40px;
+}

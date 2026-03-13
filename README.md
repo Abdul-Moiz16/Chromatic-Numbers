@@ -1,4 +1,5 @@
 Semester Group Project
+
 Authors: Abdul Moiz Akbar, Georgio Di Rosa, David Vasilav, Lucian, Patrick Groot, Catalin Baraboi
 
 -- MUST HAVE JAVA JDK ATLEAST ABOVE 21 AND MUST HAVE JAVA FX LIB --
